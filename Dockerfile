@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 # 设置容器启动时运行的命令
-CMD ["python", "setup.py"]
+CMD ["python", "main.py"]
